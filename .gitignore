@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Caches / tooling
+.cache
+.vite
+coverage
+*.tsbuildinfo
+.claude/settings.local.json
+Thumbs.db
+
+# Review output and design references (not part of the build)
+.jury-scorecard.md
+d/
+reference-image.png
